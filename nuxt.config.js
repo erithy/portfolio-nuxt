@@ -1,4 +1,8 @@
 export default {
+  mode: 'spa',
+  generate: {
+    fallback: true
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'portfolio-nuxt',

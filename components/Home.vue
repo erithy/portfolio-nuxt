@@ -1,9 +1,6 @@
-<!-- Please remove this file from your project -->
 <template>
   <div class="relative flex items-top justify-center container mx-auto md:px-12 min-h-screen items-center">
     <div class="text-center md:grid md:grid-cols-2 md:gap-2 z-10">
-      <!-- <div class="loader">
-      </div> -->
         <img
           src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp"
           class="rounded-full w-40 md:w-80 mx-auto"
@@ -15,6 +12,9 @@
             <h5 class="text-xl sm:text-3xl font-medium leading-tight mb-2">John Doe</h5>
             <p class="text-gray-400 sm:text-lg typing-text m-auto">I am a Web Developer.</p>
             <div class="flex justify-center pt-4 space-x-2">
+              <a href="https://stackoverflow.com/users/11152483/rithy" target="_blank">
+                <svg aria-hidden="true" class="svg-icon iconLogoGlyphMd dark:text-white dark:hover:text-blue-300 text-gray-600 hover:text-blue-300" width="32" height="21" viewBox="0 0 32 37"><path d="M26 33v-9h4v13H0V24h4v9h22Z" fill="currentColor"></path><path d="m21.5 0-2.7 2 9.9 13.3 2.7-2L21.5 0ZM26 18.4 13.3 7.8l2.1-2.5 12.7 10.6-2.1 2.5ZM9.1 15.2l15 7 1.4-3-15-7-1.4 3Zm14 10.79.68-2.95-16.1-3.35L7 23l16.1 2.99ZM23 30H7v-3h16v3Z" fill="currentColor"></path></svg>
+              </a>
               <a href="https://github.com/erithy" target="_blank"><svg
                 class="w-6 h-6 dark:text-white dark:hover:text-blue-300 text-gray-600 hover:text-blue-300 button--github"
                 xmlns="http://www.w3.org/2000/svg"
@@ -51,30 +51,16 @@
 
 <script>
 export default {
-  name: 'NuxtTutorial'
+  name: 'home_nuxt'
 }
 </script>
 
 <style>
-.subheading {
-    text-transform: uppercase;
-    color: #90acd1;
-    letter-spacing: 4px;
-}
-  /* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  .subheading {
+      text-transform: uppercase;
+      color: #90acd1;
+      letter-spacing: 4px;
   }
-
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #000;
-  } */
-
   .loader {
     position: relative;
     width: 150px;

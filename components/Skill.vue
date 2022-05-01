@@ -16,7 +16,7 @@
           Skills
         </h1>
       </div>
-      <div class="grid grid-cols-2 gap-2">
+      <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
         <div v-for="item, i in skills" :key="i">
           <div>
             <div class="p-6 ">

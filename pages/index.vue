@@ -2,7 +2,7 @@
   <div class="dark:bg-black dark:text-white bg-gray-100">
     <Nav @gotoElement="gotoElement"/>
     <div ref="home" class="overflow-hidden">
-      <Tutorial />
+      <Home />
     </div>
     <div ref="about" style="transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);">
       <About />
