@@ -1,5 +1,4 @@
 export default {
-  mode: 'spa',
   target: 'static',
   ssr: false,
   generate: {
